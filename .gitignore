@@ -27,4 +27,4 @@ go.work.sum
 .main 
 main
 # excel files
-.xlsx
+*.xlsx
