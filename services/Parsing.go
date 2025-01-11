@@ -1,13 +1,14 @@
 package services
 
 import (
-	"dataserver/entities"
 	"encoding/json"
 	"errors"
 	"io"
 	"log"
 	"net/http"
 	"strings"
+
+	"github.com/Gunnvant/dataserver/entities"
 
 	"github.com/go-playground/validator/v10"
 )

@@ -1,10 +1,12 @@
 package handlers
 
 import (
-	"dataserver/entities"
-	"dataserver/services"
 	"encoding/json"
 	"net/http"
+
+	"github.com/Gunnvant/dataserver/services"
+
+	"github.com/Gunnvant/dataserver/entities"
 )
 
 type StatementHandler struct {

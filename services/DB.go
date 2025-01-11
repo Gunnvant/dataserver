@@ -2,8 +2,9 @@ package services
 
 import (
 	"database/sql"
-	"dataserver/entities"
 	"log"
+
+	"github.com/Gunnvant/dataserver/entities"
 
 	_ "github.com/lib/pq"
 )

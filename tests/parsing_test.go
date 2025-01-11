@@ -2,11 +2,12 @@ package tests
 
 import (
 	"bytes"
-	"dataserver/entities"
-	"dataserver/services"
 	"net/http"
 	"net/http/httptest"
 	"testing"
+
+	"github.com/Gunnvant/dataserver/entities"
+	"github.com/Gunnvant/dataserver/services"
 
 	"github.com/stretchr/testify/assert"
 )

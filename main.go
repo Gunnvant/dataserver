@@ -1,11 +1,12 @@
 package main
 
 import (
-	"dataserver/handlers"
-	"dataserver/services"
 	"fmt"
 	"net/http"
 	"os"
+
+	"github.com/Gunnvant/dataserver/handlers"
+	"github.com/Gunnvant/dataserver/services"
 )
 
 func main() {

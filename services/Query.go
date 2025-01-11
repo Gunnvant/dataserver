@@ -1,8 +1,9 @@
 package services
 
 import (
-	"dataserver/entities"
 	"log"
+
+	"github.com/Gunnvant/dataserver/entities"
 )
 
 func GetDataFromQuery(cnx *entities.Cnx, q string) (entities.SqlResponse, error) {
